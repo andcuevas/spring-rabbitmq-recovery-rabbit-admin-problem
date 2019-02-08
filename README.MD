@@ -1,15 +1,15 @@
-##Description
+## Description
 
 Two different projects in order to reproduce a problem with Spring Rabbit when using RabbitAdmin to creat the queues the recovery mechanism does not work after a restart of the RabbitMQ server.
 
-##Requirements
+## Requirements
 In order to run the projects a running instance of RabbitMQ is needed.
 
-#Running the app
+# Running the app
 1. Run the Application of one of the projects.
 1. Restart the RabbitMQ server.
 
-##Expected Results
+## Expected Results
 In the spring-rabbitmq-recovery-rabbit-admin application, after the RabbitMQ server completes the restart an entry in the log will appear:
 
 `Caused by: com.rabbitmq.client.ShutdownSignalException: channel error; protocol method: #method<channel.close>(reply-code=404, reply-text=NOT_FOUND - no queue 'demo.queue' in vhost '/', class-id=50, method-id=10)`
