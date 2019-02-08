@@ -5,7 +5,7 @@ Two different projects in order to reproduce a problem with Spring Rabbit when u
 ## Requirements
 In order to run the projects a running instance of RabbitMQ is needed.
 
-# Running the app
+## Running the app
 1. Run the Application of one of the projects.
 1. Restart the RabbitMQ server.
 
