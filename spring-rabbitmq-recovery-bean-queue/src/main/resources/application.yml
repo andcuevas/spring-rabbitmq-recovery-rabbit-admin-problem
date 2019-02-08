@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-rabbitmq-recovery-bean-queue
+  rabbitmq:
+    listener:
+      type: direct
+    host: localhost
+
